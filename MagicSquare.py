@@ -30,7 +30,7 @@ def checkSquare(magicSquare):
             if magicSquare[0] + magicSquare[3] + magicSquare[6] ==15 and magicSquare[1] + magicSquare[4] + magicSquare[7] ==15 and magicSquare[2] + magicSquare[5] + magicSquare[8] ==15:
                 if magicSquare [0] + magicSquare[4] + magicSquare[8] ==15 and magicSquare[2] + magicSquare[4] + magicSquare [6] ==15: 
                     value = 0
-    print("Magic Square Has Been Found on Trail ", trial)
+    print("Magic Square Has Been Found on Trial ", trial)
 
 
 if __name__ == "__main__":
